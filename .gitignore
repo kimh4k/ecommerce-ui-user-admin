@@ -25,49 +25,20 @@ client/node_modules/
 server/node_modules/
 shared/node_modules/
 
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
 # Output of 'npm pack'
 *.tgz
 
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
-.env
-.env.local
-.env.development
-.env.test
-.env.production
-
 # Vite cache
 .vite/
 .vite-ssr-temp/
-
-# IDE/Editor
-.idea/
-.vscode/
-*.swp
-*.swo
-*.sublime-workspace
 
 # System Files
 .DS_Store
 Thumbs.db
 
-# Build files
-dist/
-client/dist/
-server/dist/
-build/
-out/
 
 # Generated files
 generated-icon.png
@@ -75,6 +46,3 @@ components.json
 
 # TypeScript cache
 *.tsbuildinfo
-
-# Drizzle migrations (if you want to ignore them)
-/migrations/
